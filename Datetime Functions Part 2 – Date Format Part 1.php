@@ -63,3 +63,12 @@
   echo date_format($d, "Y-m-l z") . "<br>";
   echo date_format($d, "Y-m-l djDl") . "<br>";
   echo date_format($d, "Y-m-l S") . "<br>";
+
+   // Time
+   echo date_format($d, "Y-m-d g a") . "<br>";
+   echo date_format($d, "Y-m-d g A") . "<br>";
+   echo date_format($d, "Y-m-d h a") . "<br>";
+   echo date_format($d, "Y-m-d G") . "<br>";
+   echo date_format($d, "Y-m-d H") . "<br>";
+   echo date_format($d, "Y-m-d H/i/s") . "<br>";
+   echo date_format($d, "Y-m-d H/i/s u") . "<br>";
