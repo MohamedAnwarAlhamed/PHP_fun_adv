@@ -1,0 +1,17 @@
+{
+    "name": "user/autoload",
+    "autoload": {
+        "psr-4": {
+            "User\\Autoload\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Your Name",
+            "email": "greenfitter516@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
